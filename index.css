@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@keyframes slide-right {
+  from { transform: translateX(-50%); }
+  to { transform: translateX(0); }
+}
+
+.animate-slide-right {
+  animation: slide-right 40s linear infinite;
+}
